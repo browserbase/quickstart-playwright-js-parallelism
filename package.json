@@ -1,0 +1,26 @@
+{
+  "name": "browserbase-quickstart-playwright-js-parallelism",
+  "version": "0.0.1",
+  "description": "A template to use Playwright with Browserbase to achieve parallel tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browserbase/quickstart-playwright-js-parallelism.git"
+  },
+  "private": "true",
+  "author": "Paul Klein <paul@browserbase.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/browserbase/quickstart-playwright-js-parallelism/issues"
+  },
+  "homepage": "https://github.com/browserbase/quickstart-playwright-js-parallelism#readme",
+  "dependencies": {
+    "playwright-core": "^1.43.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
