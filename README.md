@@ -1,5 +1,3 @@
-# Parallel Playwright tasks with Browserbase
-
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="logo/dark.png"/>
@@ -14,7 +12,7 @@
 </p>
 <br/>
 
-## Introduction
+## Parallel Playwright tasks with Browserbase
 
 This repo is a template for the [Parallelization Guide](http://docs.browserbase.com/guides/parallelization).
 
