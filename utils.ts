@@ -26,7 +26,7 @@ export async function processBrowserbaseTasks<R>(
     await browser.close();
   };
 
-  const browserWSEndpoint = `wss://api.browserbase.com?apiKey=${process.env.BROWSERBASE_API_KEY}&enableProxy=true`;
+  const browserWSEndpoint = `wss://connect.browserbase.com?apiKey=${process.env.BROWSERBASE_API_KEY}&enableProxy=true`;
   const sessions = Array.from({ length: 5 }, () =>
     createBrowserSession(browserWSEndpoint)
   );
